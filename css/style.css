@@ -47,7 +47,13 @@ section h2{
 }
 a > img{
   border: 5px solid rgb(204, 204, 204);
+	transition: border 0s ease;
 }
+
+a > img:hover{
+	border-color: rgb(204, 204, 204);
+}
+
 footer{
   text-align: right;
 }
