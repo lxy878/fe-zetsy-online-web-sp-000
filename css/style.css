@@ -46,8 +46,14 @@ section h2{
   font-size: 2em;
 }
 a > img{
-  border: 5px solid rgb(204, 204, 204);
+	border: 5px solid rgb(204, 204, 204);
+	transition: border-color 0s ease-out;
 }
+
+a > img:hover{
+	border-color: rgb(153, 173, 166);
+}
+
 footer{
   text-align: right;
 }
