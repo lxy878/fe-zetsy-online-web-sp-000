@@ -47,7 +47,7 @@ section h2{
 }
 a > img{
   border: 5px solid rgb(204, 204, 204);
-	transition: border 0s ease;
+	transition: border-color 0s ease;
 }
 
 a > img:hover{
